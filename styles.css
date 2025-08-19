@@ -1,0 +1,25 @@
+/* Posiciona o menu fixo à direita da tela */
+.menu-acessibilidade {
+position: fixed;
+top: 2rem;
+right: 20px;
+z-index: 1000;
+}
+
+/* Rotaciona o botão de acessibilidade */
+.rotacao-botao {
+transform: rotate(-90deg);
+transform-origin: right center;
+}
+
+/* Estilo da lista de opções */
+.opcoes-acessibilidade {
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+}
+
+/* Dá espaçamento entre os botões */
+.opcoes-acessibilidade button {
+margin-bottom: 5px;
+}
